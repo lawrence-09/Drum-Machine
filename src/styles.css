@@ -1,0 +1,48 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+  background-color: antiquewhite;
+  width: 100%;
+}
+
+.pad-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  margin-top: 20px;
+  width: 200px;
+  align-items: center;
+}
+
+.drum-pad {
+  background-color: azure;
+  color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#display {
+  background-color: #480404;
+  color: #0f0;
+  padding: 10px;
+  margin-bottom: 20px;
+  min-height: 30px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #25e0f5;
+  font-family: "Arial", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
